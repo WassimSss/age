@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+            <div class="votreage">
+                <label for="age">Votre Age :</label>
+                <input type="date" id="age" name="ton_age" maxlength="2" required/>
+            </div>
+        
+            <div class="button">
+                <button id="verify" onclick="ageCalculator()">Vérifier</button>
+            </div>
+     </form>
+    <p id="result"></p>
+     <script src="age.js"></script>
+</body>
+</html>
